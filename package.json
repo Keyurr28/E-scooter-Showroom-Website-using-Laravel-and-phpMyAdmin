@@ -7,10 +7,13 @@
         "watch-poll": "mix watch -- --watch-options-poll=1000",
         "hot": "mix watch --hot",
         "prod": "npm run production",
-        "production": "mix --production"
+        "production": "mix --production",
+        "deploy": "gh-pages -d public"
     },
+    "homepage": "https://Keyurr28.github.io/E-scooter-Showroom-Website-using-Laravel-and-phpMyAdmin",
     "devDependencies": {
         "axios": "^0.21",
+        "gh-pages": "^6.3.0",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14"
